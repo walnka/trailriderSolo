@@ -1,0 +1,1 @@
+The shared CAD for the trailrider solo will go here
