@@ -1,0 +1,21 @@
+<mstns:materials xmlns:mstns="http://www.solidworks.com/sldmaterials" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:slodcolorswatch="http://www.solidworks.com/sldcolorswatch" xsi:schemaLocation="http://www.solidworks.com/sldmaterials&amp;#xA;E:\Temp\sldmaterials.xsd" version="2008.03">
+  <curves id="curve0">
+    <point x="1.0" y="1.0" />
+    <point x="2.0" y="1.0" />
+    <point x="3.0" y="1.0" />
+  </curves>
+  <classification name="Rubber_Rubber">
+    <material name="D85" matid="463345" appdata="Model Created using Matereality on 3/2/2023&#xA;&#xA;Information about material properties used to create this model are available at:&#xA;https://my.matereality.com/SolidWorks/TestingInformation?resultids=463345%2C463347&amp;study=StaticAnalysis&amp;model=LinearElasticIsotropic&amp;options=None&#xA;Copy and Paste into the address bar of your browser to view&#xA;&#xA;Property Notes&#xD;&#xA;NUXY: Typical&#xA;GXY: Calculated&#xA;DENS: Perry&#xA;" failurecriteria="4">
+      <physicalproperties>
+        <EX value="4016000" displayname="Elastic modulus" />
+        <NUXY value="0.49799999594688416" displayname="Poisson's ratio" />
+        <GXY value="1340453.9422116256" displayname="Shear modulus" />
+        <DENS value="2000" displayname="Mass density" />
+        <SIGYLD value="3135000" displayname="Yield strength" />
+        <REFTEMP value="296" displayname="" />
+        <materialmodel name="Unknown SolidWorks Model" type="0" />
+      </physicalproperties>
+      <shaders />
+    </material>
+  </classification>
+</mstns:materials>
