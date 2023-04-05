@@ -1,0 +1,63 @@
+For foot area thing
+Split geometry at min point that would be inserted into seat side
+Rigid constraint that
+Add remote force to wheel contact patch
+Choose face that it acts on, then move location of force to wheel contact patch
+Define Y component of force for weight, one for x at front collision to wheel
+Use distributed if you can (rigid less computing power)
+Contact patch is square, that wheel is mounted to, and the four nuts (the inside of the holes)
+For the foot thing: make the platform the wheel attaches to one piece with the tubing (combine pieces, add fillet for weld locations)
+
+Upward force: G force based on mass on front wheel
+COG + moment balance around wheels to figure out distribution of mass to each wheel
+Load Transfer: from certain deceleration (braking load transfer for front wheel sim, prob not care about cornering)
+For each hill things, a new mass distribution on wheels (do worst case scenario so downhill + braking all weight on front wheel maybe)
+Side wheel prob not need to worry about
+Braking not for fatigue limit 
+Fatigue, sitting on straight ground mass distribution (maybe safety factor or extra g force for bumps maybe like 1.5G design factor)
+
+If fails maybe new material
+Or add new design features
+Maybe increase diameter if possible (best gains)
+Increase length of place you insert tube
+Maybe 1 or maybe 1.5G for crashing
+Gs come from wheel compressing in front of you
+Look up regulations maybe
+
+Things to Lookup
+# of Cycles for Fatigue
+S-N Curve for 5052 H38 and 5052-O and maybe 6061 options
+G force for normal bumps offroading
+G force for running into obstacle
+
+
+Things I did
+- Moved wheel pos 1cm back
+- Increased front to back size of wheel plate by 2cm
+
+
+Notes for Redesign for Kyle
+Front U beam
+2.5" Width
+0.049" wall thickness
+Add flanges on elbow
+0.5" plate thickness
+Make only 1 hole for adjusting
+Increase insertion hole for tube to extend as close to elbow as possible
+Make sure wheel plate still has clearance (if you move the front wheel holes back then also lengthen the seat area so that the base can be the same size)
+
+I suggest anything with a load path from the body to the wheels should be similar thickness to this part (not necessarily arm-rests or footrest or supporting horizontal)
+I also recommend increasing the backrest u beam to be thicker too (maybe not as thick as the front wheel u beam but def thicker than it is now. Prob wont be able to simulate it till after the presentaiton)
+The handles might need to increase in thickness by a bit too
+prob closer to the 1-1.5" thickness for the above seat back and handles for now
+
+
+Other notes
+- need to add brakes to the frame by the wheels and also the handles
+- Maybe make antitip wheel detachable (for 2 sherpa operation)
+- The 2 sherpa handles will now need to mount in a much bigger hole from the seat u beam so you will need to figure something out here. The handles should prob be closer to the 1-1.5" thickness tube so either some sort of adapter might be necessary)
+- For other tubing the thickness can be similar or even less than the one defined for the front wheel u bar
+
+
+Good luck, I will be available basically the entire day for any questions you have (I can hop on a call or explain in person)
+
